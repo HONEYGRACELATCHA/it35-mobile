@@ -6,7 +6,7 @@ type ContainerProps = object
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div id="container">
-       <IonButton>Default</IonButton>
+       <IonButton>Click Me</IonButton>
       <IonButton disabled={true}>Disabled</IonButton>
     </div>
   );
