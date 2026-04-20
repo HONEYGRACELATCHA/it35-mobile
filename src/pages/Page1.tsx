@@ -1,20 +1,21 @@
-import { IonButtons, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar }from'@ionic/react';
+    import { IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
+    const Page1: React.FC = () => {
 
-const Page1: React.FC =()=>{
-  return(
-    <IonPage>
-        <IonHeader>
-          <IonToolbar>
+        return (
 
-              <IonButtons slot="start">
-                <IonMenuButton></IonMenuButton>
-              </IonButtons>
+            <IonPage>
+                <IonHeader>
+                    <IonToolbar>
+                        <IonTitle>
+                            Page1
+                        </IonTitle>
+                    </IonToolbar>
+                </IonHeader>
+            </IonPage>
+        )
 
-            <IonTitle>Page 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-    </IonPage>
-  );
-};
 
-export default Page1;
+
+    };
+
+    export default Page1;
